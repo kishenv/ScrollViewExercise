@@ -23,13 +23,14 @@ class ViewController: UIViewController {
             images.append(imageView)
             
             
-           // var newX: CGFloat = 0.0
+            var newX: CGFloat = 0.0
             
-          //  newX = view.frame.midX + view.frame.size.width * CGFloat(x)
+            newX = view.frame.midX + view.frame.size.width * CGFloat(x)
             
-        //    scrollView.addSubview(imageView)
-          //  imageView.frame=CGRect(x: 0, y: view.frame.size.height/2, width: 150, height: 150)
-            
+            scrollView.addSubview(imageView)
+            imageView.frame=CGRect(x: view.frame.size.width/2, y: view.frame.size.height/2, width: 150, height: 150)
+            print(view.frame.size.height)
+            print(view.frame.size.width)
         }
         print ("Count: \(images.count)")
         
