@@ -11,4 +11,8 @@ Added code to position icons, need to adjust it to center it correctly
 Poisitioned in center
 
 
-INcreased width of scroll view to allow scrollign through the three icons.
+Increased width of scroll view to allow scrollign through the three icons.
+
+Changed UI color to make the scrollView bounds visible. 
+Removed clipstoBounds, to allow icons to show beyond scrollView's bounds.
+
