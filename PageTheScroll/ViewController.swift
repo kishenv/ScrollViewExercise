@@ -13,8 +13,11 @@ class ViewController: UIViewController {
     var images = [UIImageView]()
     @IBOutlet weak var scrollView: UIScrollView!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        var contentWidth: CGFloat = 0
         
         for x in 0...2
         {
@@ -25,17 +28,22 @@ class ViewController: UIViewController {
             
             var newX: CGFloat = 0.0
             
-            newX = view.frame.midX + view.frame.size.width * CGFloat(x)
-            
+            newX = scrollView.frame.midX + scrollView.frame.size.width * CGFloat(x)
+            contentWidth += newX
             scrollView.addSubview(imageView)
-            imageView.frame=CGRect(x: view.frame.size.width/2, y: view.frame.size.height/2, width: 150, height: 150)
-            print(view.frame.size.height)
-            print(view.frame.size.width)
+            
+            imageView.frame=CGRect(x: (newX)-75, y: (scrollView.frame.midY)-75, width: 150, height: 150)
+            
+            
         }
-        print ("Count: \(images.count)")
+        scrollView.backgroundColor = UIColor.purple
+        scrollView.clipsToBounds = false
+        scrollView.contentSize = CGSize(width: contentWidth, height: view.frame.size.height
+        )
         
+        print (scrollView.frame.size.width)
     }
-
+    
   
 
 }
