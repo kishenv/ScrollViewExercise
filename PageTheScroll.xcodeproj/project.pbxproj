@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					43C3B3BC1EA71E5600E68CCA = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 26APXPNFMM;
 						ProvisioningStyle = Automatic;
 					};
 					43C3B3D01EA71E5600E68CCA = {
@@ -414,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 26APXPNFMM;
 				INFOPLIST_FILE = PageTheScroll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kish.PageTheScroll;
@@ -426,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 26APXPNFMM;
 				INFOPLIST_FILE = PageTheScroll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kish.PageTheScroll;
@@ -507,6 +510,7 @@
 				43C3B3E71EA71E5600E68CCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43C3B3E81EA71E5600E68CCA /* Build configuration list for PBXNativeTarget "PageTheScrollTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +519,7 @@
 				43C3B3EA1EA71E5600E68CCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43C3B3EB1EA71E5600E68CCA /* Build configuration list for PBXNativeTarget "PageTheScrollUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +528,7 @@
 				43C3B3ED1EA71E5600E68CCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

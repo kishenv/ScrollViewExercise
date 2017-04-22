@@ -32,13 +32,13 @@
                                 <rect key="frame" x="0.0" y="567" width="375" height="100"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ise-Ql-SRP">
-                                <rect key="frame" x="57" y="0.0" width="260" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="3QJ-Vh-EwK" secondAttribute="trailing" id="00t-MI-Ow9"/>
-                            <constraint firstItem="ise-Ql-SRP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="41" id="5Ft-Uq-dGT"/>
+                            <constraint firstItem="ise-Ql-SRP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="5Ft-Uq-dGT"/>
                             <constraint firstItem="3QJ-Vh-EwK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="C7n-LE-rRU"/>
                             <constraint firstItem="ise-Ql-SRP" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="Lsd-CY-9Pj"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="OuY-cU-aSw" secondAttribute="bottom" id="O7O-go-MIO"/>
